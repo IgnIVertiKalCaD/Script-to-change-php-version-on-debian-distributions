@@ -1,5 +1,5 @@
 # Script-to-change-php-version-on-debian-distributions
-Script to change php version on debian distributions.
+Script to change and install php version on debian distributions.
 
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ____
