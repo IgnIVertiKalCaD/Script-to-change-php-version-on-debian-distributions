@@ -3,7 +3,7 @@ Script to change php version on debian distributions.
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ____
 
-#Install
+# Install
 
 ```
 git clone https://github.com/drobot123/Script-to-change-php-version-on-debian-distributions.git
@@ -11,7 +11,7 @@ git clone https://github.com/drobot123/Script-to-change-php-version-on-debian-di
 ```
 ____
 
-#Usage
+# Usage
 
 ```
 ./cpv.sh 7.4
@@ -24,7 +24,7 @@ sh cpv.sh 7.4
 
 ____
 
-#List php version for install:
+# List php version for install:
 
 5.6
 7.1
