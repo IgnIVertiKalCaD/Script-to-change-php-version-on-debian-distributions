@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 
 # Reset
 NC='\033[0m'       # Text Reset
@@ -27,7 +27,7 @@ fi
 
 # php7.1
 
-if [ "$1" == "7.1" ] || [ "$1" == "7,1" ]; then
+if [ "$1" = "7.1" ] || [ "$1" = "7,1" ]; then
 if ! [ -x "$(command -v php7.1)" ]; then
   echo 'Error: php7.1 is not installed.' >&2
   printf "Install ( ${Cyan}Y${NC} / ${Red}N${NC} ): "
@@ -47,7 +47,7 @@ fi
 
 # php7.2
 
-if [ "$1" == "7.2" ] || [ "$1" == "7,2" ]; then
+if [ "$1" = "7.2" ] || [ "$1" = "7,2" ]; then
 if ! [ -x "$(command -v php7.2)" ]; then
   echo 'Error: php7.2 is not installed.' >&2
   printf "Install ( ${Cyan}Y${NC} / ${Red}N${NC} ): "
@@ -67,7 +67,7 @@ fi
 
 # php7.3
 
-if [ "$1" == "7.3" ] || [ "$1" == "7,3" ]; then
+if [ "$1" = "7.3" ] || [ "$1" = "7,3" ]; then
 if ! [ -x "$(command -v php7.3)" ]; then
   echo 'Error: php7.3 is not installed.' >&2
   printf "Install ( ${Cyan}Y${NC} / ${Red}N${NC} ): "
@@ -87,7 +87,7 @@ fi
 
 # php7.4
 
-if [ "$1" == "7.4" ] || [ "$1" == "7,4" ]; then
+if [ "$1" = "7.4" ] || [ "$1" = "7,4" ]; then
 if ! [ -x "$(command -v php7.4)" ]; then
   echo 'Error: php7.4 is not installed.' >&2
   printf "Install ( ${Cyan}Y${NC} / ${Red}N${NC} ): "
@@ -107,7 +107,7 @@ fi
 
 # php8.0
 
-if [ "$1" == "8.0" ] || [ "$1" == "8,0" ]; then
+if [ "$1" = "8.0" ] || [ "$1" = "8,0" ]; then
 if ! [ -x "$(command -v php8.0)" ]; then
   echo 'Error: php8.0 is not installed.' >&2
   printf "Install ( ${Cyan}Y${NC} / ${Red}N${NC} ): "
@@ -127,7 +127,7 @@ fi
 
 # php8.1
 
-if [ "$1" == "8.1" ] || [ "$1" == "8,1" ]; then
+if [ "$1" = "8.1" ] || [ "$1" = "8,1" ]; then
 if ! [ -x "$(command -v php8.1)" ]; then
   echo 'Error: php8.1 is not installed.' >&2
   printf "Install ( ${Cyan}Y${NC} / ${Red}N${NC} ): "
@@ -147,7 +147,7 @@ fi
 
 # php5.6
 
-if [ "$1" == "5.6" ] || [ "$1" == "5,6" ]; then
+if [ "$1" = "5.6" ] || [ "$1" = "5,6" ]; then
 if ! [ -x "$(command -v php5.6)" ]; then
   echo 'Error: php5.6 is not installed.' >&2
   printf "Install ( ${Cyan}Y${NC} / ${Red}N${NC} ): "
