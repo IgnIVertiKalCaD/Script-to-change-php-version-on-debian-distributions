@@ -7,7 +7,7 @@ ____
 # Install
 
 ```
-git clone https://github.com/drobot123/Script-to-change-php-version-on-debian-distributions.git
+git clone https://github.com/IgnIVertiKalCaD/Script-to-change-php-version-on-debian-distributions.git
 
 ```
 ____
