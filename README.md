@@ -19,7 +19,7 @@ ____
 
 or
 
-sh cpv.sh 7.4
+bash cpv.sh 7.4
 
 ```
 
